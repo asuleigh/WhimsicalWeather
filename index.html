@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TUI</title>
+  <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.css" />
+  <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.css" />
+  <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body style="background-image:url(assets/images/white-waves.png); font-family: Georgia, 'Times New Roman', Times, serif;">
+<!-- May contain unecessary divs that will be moved/deleted as code is added-->
+
+<!--Heading-->
+
+<div class="section" style="background-image: url(assets/images/springHeader.jpg); background-size: cover; background-repeat: no-repeat; border-bottom: solid 1px rgba(238, 255, 0, 0.726);">
+<div class="row has-text-centered">
+    <h1 class="title is-1" style="color: rgba(238, 255, 0, 0.726);">
+        Whimsical Weather
+    </h1>
+    <p class="has-text-centered" style="color:#49a57a; font-size: 20px;">Input a zip code to see the weather.
+    <br> Interact with the calendar to get a fact of the day!</p>
+    </div>
+    </div>
+</div> 
+
+<!-- Month -->
+<div class="container">
+<h2 class="title has-text-centered" style="height: 100%; margin-top: 25px; color: #49a57a;"><i class="fas fa-seedling"></i>February</h2>
+</div>
+
+<!-- Zip Form-->
+<div class="container" style= "margin-top: 25px; border: 1px solid rgba(238, 255, 0, 0.726); width: 50%">
+        <div class="card has-text-centered">
+            <form id="contact-form">  
+                <ul style="background-image:url(assets/images/canadian-dollar.png);">
+                    <li>
+                        <label for="zipcode" style= "color: #49a57a; font-size: 18px;"> Choose a Zip Code</label>
+                        <br>
+                        <input type="text" id="enterZipcode" name="enterZipcode" placeholder="28204" required="required" style="border: solid 1px rgba(238, 255, 0, 0.726);">
+                    </li>
+                    <br>
+                    <input type="submit" id="zip" style="border: solid 1px rgba(238, 255, 0, 0.726); background-color: #CACE93; color: #49a57a; border-radius: 8px; margin-bottom: 10px; font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif;">
+            </form>
+        </div>
+    </div>
+
+<!-- Populate Calendar -->
+<div class= "media-content">
+<div class="container">
+<div class="level" id="calendar"></div>     
+</div>
+</div>
+        
+<!-- Footer -->
+
+<div style="height:65px"></div>
+
+<footer class="footer" style="background-image:url(assets/images/white-waves.png); height: 5px; width: 100%;">
+    <div class="footer-content has-text-centered">
+        <p style="font-weight: bold; color: #49a57a;">&copy; Copyright 2020</p>
+    </div>
+    </footer>
+
+<!-- Modal -->
+<div class="modal" style="background-color: beige;">
+        <div class="modal-background" style="background-color: #49a57a;"></div>
+        <div class="modal-card" style="background-color: beige;">
+          <header class="modal-card-head" style="color: #eeff00b9">
+            <p class="modal-card-title" style="color: rgba(238, 255, 0, 0.726)">Modal title</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+
+<!-- jQuery Script-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<!-- moment.js Script-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<!-- TUI Script-->
+<script src="https://uicdn.toast.com/tui.code-snippet/latest/tui-code-snippet.js"></script>
+<script src="https://uicdn.toast.com/tui.dom/v3.0.0/tui-dom.js"></script>
+<script src="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.min.js"></script>
+<script src="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.min.js"></script>
+<script src="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.js"></script>
+
+<!-- Personal Script -->
+<script src="assets/js/script.js"></script>
+
+
+</body>
+
+</html>
