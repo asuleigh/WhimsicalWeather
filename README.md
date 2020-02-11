@@ -1,4 +1,4 @@
-# Project-1
+# Whimsical Weather
 The team created a deployable calendar application called Whimsical Weather for Project 1 at the UNCC Coding Bootcamp.
 
 ## Description
@@ -11,5 +11,5 @@ The UI used for the calendar is Toast UI, and the html formatting tool used is B
 [Screenshot](Project1.PNG)
 
 ## Links
-https://danshelly.github.io/Project-1/
-https://github.com/DanShelly/Project-1
+https://asuleigh.github.io/WhimsicalWeather/
+https://github.com/asuleigh/WhimsicalWeather
