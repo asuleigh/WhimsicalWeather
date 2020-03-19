@@ -222,10 +222,10 @@ function fact() {
       // After the data comes back from the API
       .then(function (response) {
         allFacts.push(response.text)
-      });
+      })
 
   };
-};
+}
 
 fact()
 initCalendar();
