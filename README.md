@@ -1,4 +1,4 @@
-# Whimsical Weather
+# [Whimsical Weather](https://asuleigh.github.io/WhimsicalWeather/)
 The team created a deployable calendar application called Whimsical Weather for Project 1 at the UNCC Coding Bootcamp.
 
 ## Description
@@ -7,9 +7,9 @@ The Whimsical Weather app is a calendar application that takes an input of a zip
 ## Functionality
 The UI used for the calendar is Toast UI, and the html formatting tool used is Bulma. The zip code is taken in with an on-click button that ties in three API's: weather, GIF, and fun-fact. The weather, and GIF after a word related to the temperature is randomly selected from an array, is displayed on the calendar. There is a button on each day of the week that can be clicked to display a fun fact in a modal. Each time a new zip code is entered the previous information is cleared and the new information for that zip code is displayed.
 
-## Screenshot
-[Screenshot](Project1.PNG)
+## Preview
+![Gif](WWGIF.gif)
 
 ## Links
-https://asuleigh.github.io/WhimsicalWeather/
-https://github.com/asuleigh/WhimsicalWeather
+[Whimsical Weather](https://asuleigh.github.io/WhimsicalWeather/)
+[GitHub Repo](https://github.com/asuleigh/WhimsicalWeather)
