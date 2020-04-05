@@ -12,4 +12,5 @@ The UI used for the calendar is Toast UI, and the html formatting tool used is B
 
 ## Links
 [Whimsical Weather](https://asuleigh.github.io/WhimsicalWeather/)
+<br>
 [GitHub Repo](https://github.com/asuleigh/WhimsicalWeather)
