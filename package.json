@@ -4,9 +4,6 @@
   "description": "The team created a deployable calendar application called Whimsical Weather for Project 1 at the UNCC Coding Bootcamp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
     "start": "node server.js"
   },
   "repository": {
