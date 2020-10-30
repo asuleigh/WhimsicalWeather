@@ -16,18 +16,18 @@ function initCalendar() {
       {
         id: CALENDAR_ID_WEATHER,
         name: 'Weather',
-        color: '#ffffff',
-        bgColor: '#49a57a',
-        dragBgColor: '#49a57a',
-        borderColor: '#49a57a'
+        color: '#d66a21',
+        bgColor: '#e7caa4b9',
+        dragBgColor: '#e7caa4b9',
+        borderColor: '#e7caa4b9'
       },
       {
         id: CALENDAR_ID_FACTS,
         name: 'Fun Facts',
         color: '#ffffff',
-        bgColor: '#eeff00b9',
-        dragBgColor: '#eeff00b9',
-        borderColor: '#eeff00b9'
+        bgColor: '#d66a21',
+        dragBgColor: '#d66a21',
+        borderColor: '#d66a21'
       },
       {
         id: CALENDAR_ID_GIF,
